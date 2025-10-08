@@ -6,7 +6,7 @@ AND address.city_id = city.city_id
 AND city.country_id = country.country_id
 GROUP BY country.country_id
 ORDER BY "People in that Country" DESC 
-;1
+;
 
 --Movies in each genre
 SELECT category.name AS "Genre of movie", count(film.film_id) AS "Amount of movies"
